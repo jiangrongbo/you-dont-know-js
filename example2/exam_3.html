@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div>
+    <script type="text/javascript">
+        function func(){};
+        var arr = [];
+        arr[0] = 1;
+        arr[1.3] = 3;
+        alert(arr[1.3]);//3
+        arr["age"] = 23;
+        alert(arr["age"]);//23
+        alert(arr.age);//23
+        arr[undefined] = "undef";
+        alert(arr[undefined]);//undef
+        arr[func] = "func";
+        alert(arr[func]);//func
+        alert(arr.length);//1
+    </script>
+</div>
+</body>
+</html>

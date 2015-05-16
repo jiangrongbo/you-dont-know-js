@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div>
+    <script type="text/javascript">
+        var func = function(){};
+        var arr = [];
+        arr.push(func);
+        arr.push(1);
+        arr.push(10);
+        arr.push("hello");
+        arr.push("world");
+        for(i=0;i<arr.length;i++)
+        {
+            document.writeln(arr[i]);
+        }
+        arr.pop();
+        document.writeln("<br/>");
+        for(i=0;i<arr.length;i++)
+        {
+            document.writeln(arr[i]);
+        }
+    </script>
+</div>
+</body>
+</html>
