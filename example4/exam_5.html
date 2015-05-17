@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div>
+    <script type="text/javascript">
+        var num1 = 100/0;
+        var num2 = -100/0;
+        alert(num1);//Infinity
+        alert(num2);//-Infinity
+        alert(typeof num1);//number
+        alert(typeof num2);//number
+        alert(num1 + num2);//NaN
+        alert(num1 + num1);//Infinity
+        alert(num2 + num2);//-Infinity
+    </script>
+</div>
+</body>
+</html>

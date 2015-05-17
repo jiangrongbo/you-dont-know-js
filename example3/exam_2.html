@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>exam_2</title>
+</head>
+<body>
+<div>
+    <script type="text/javascript">
+        var str = "hello";
+        var arr = ['h','e','l','l','o'];
+        alert(typeof str);//string
+        alert(typeof arr);//object
+        //str.reverse();//error: reverse is undefined
+        arr.reverse();//right
+        str += "world";
+        arr += ['w','o','r','l','d'];
+        alert(str);//helloworld
+        alert(arr);//h,e,l,l,ow,o,r,l,d
+
+        var str1 = "1234";
+        var arr1 = ['1','2','3','4'];
+        alert(+str1);//1234
+        alert(+arr1);//NaN
+    </script>
+</div>
+</body>
+</html>
