@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div>
+    <script type="text/javascript">
+        function func(name,age)
+        {
+            this.name = name;
+            this.age = age;
+            return "name:"+name + "  " + "age:" + age;
+        }
+        var info = func("Bob",20);//调用函数
+        var person = new func("Smith",30);//创建对象
+        alert(typeof info);//string
+        alert(typeof person);//object
+    </script>
+</div>
+</body>
+</html>
