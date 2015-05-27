@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div>
+    <script type="text/javascript">
+        var person = {
+            name:"Jane",
+            age:30,
+            address:"china",
+            phone:"133333"
+        }
+
+        with (person)
+        {
+            age = 31;
+            address = "america";
+
+        }
+        alert(person.age);
+        alert(person.address);
+    </script>
+</div>
+</body>
+</html>

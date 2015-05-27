@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div>
+    <script type="text/javascript">
+        var person = {};
+        person.name = "Jane";
+        person.getName = function()
+        {
+            return this.name;
+        }
+        alert(typeof person);//object
+        alert(person.name);//Jane
+        alert(person.getName());//Jane
+        delete person.name;
+        alert(person.name);//undefined
+        alert(person.getName());//undefined
+    </script>
+</div>
+</body>
+</html>
